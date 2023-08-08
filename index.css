@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #C6C6C6;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.app-logo{
+    width: 127px;
+}
+.user-avatar{
+    border-radius: 20px;
+    width: 34px;
+    height: 34px;
+    margin: 15px 10px;
+}
+.container{
+    width: 375px;
+    margin: 0 auto;
+    background-color: white;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.users-info{
+    display: flex;
+    align-items: center;
+}
+.account-name,
+.location{
+    display: block;
+    
+}
+.location{
+    font-size:12px;
+}
+
+.bold-links,
+.location{
+    text-decoration: none;
+    color: 000000;
+}
+.bold-links{
+    font-size:13px;
+    font-weight: bold;
+}
+
+.post{
+    width: 375px;
+    height:375px;
+}
+
+.btn{
+    text-align: center;
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin: 10px 5px;
+    transition: transform .2s; /* Animation */
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.btn img{
+    width: 23px;
+    height: 23px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.post-info p {
+    margin: 5px 0;
+}
+.post-info{
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+ul li{
+    border-bottom: 15px solid #C6C6C6;
+}
